@@ -210,6 +210,7 @@ def accueil():
     st.title("🕶️ Collectif Hack, IA & Électro")
     st.markdown(
         """
+Je Suis Trhacknon un Hacker Et Developpeur, Je me suis formé de maniere autodidacte.
 Ce questionnaire sert à composer un petit collectif de hackers, makers et développeurs qui explorent
 l'IA, l'électronique et les usages des équipements accessibles à tous. Compte 10 à 15 minutes ;
 les champs marqués * sont obligatoires.
@@ -334,7 +335,7 @@ def main():
         physique = st.radio("Rencontres physiques occasionnelles", PHYSIQUE, index=None, key="physique")
         trente_jours = st.radio("Peux-tu contribuer à un petit projet concret dans les 30 jours ? *", TRENTE_JOURS,
                                 index=None, key="trente_jours")
-        libre = st.text_area("Autre chose à nous dire ?", key="libre", height=100, max_chars=2000)
+        libre = st.text_area("Autre chose à nous dire ? Connais tu des collectifs de hackers ? Si Oui Que penses tu de leurs actions, Et de la maniere dont ils ciblent leurs 'victimes', key="libre", height=100, max_chars=2000)
 
         st.divider()
         texte_consent = (
